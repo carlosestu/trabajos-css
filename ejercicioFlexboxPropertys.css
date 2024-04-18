@@ -1,0 +1,86 @@
+.colores {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.amarillo {
+border: 1px solid rgb(241, 241, 203);
+background-color: rgb(241, 241, 203);
+width: 8%;
+}
+.rojo {
+margin-left: 2%;
+border: 1px solid rgb(250, 129, 129);
+background-color: rgb(250, 129, 129);
+width: 8%;
+}
+.verde {
+margin-left: 2%;
+border: 1px solid rgb(201, 255, 222);
+background-color: rgb(201, 255, 222);
+width: 7%;
+}
+.naranja {
+margin-left: 2%;
+border: 1px solid rgb(199, 185, 153);
+background-color: rgb(199, 185, 153);
+width: 19%;
+}
+.azul  {
+margin-left: 2%;
+border: 1px solid rgb(166, 192, 245);
+background-color: rgb(166, 192, 245);
+width: 7%; 
+}
+.amarillo p {
+font-size: 17px;
+position: relative;
+margin-left: 4vh;
+margin-top: 35%;
+}
+.rojo p {
+font-size: 17px;
+position: relative;
+margin-left: 4vh;
+margin-top: 35%;
+}
+.verde p {
+font-size: 17px;
+position: relative;
+margin-left: 4vh;
+margin-top: 35%;
+}
+.naranja p {
+font-size: 17px;
+position: relative;
+margin-left: 5vh;
+margin-top: 15%;
+}
+.azul p {
+font-size: 17px;
+position: relative;
+margin-left: 4vh;
+margin-top: 35%;
+}
+.amarillo ul li {
+justify-content: center;
+text-align: center;
+display: flex;
+flex-direction: column;
+list-style: none;
+background-color: white;
+height: 90px;
+width: 6vh;
+margin-top: 15px;
+}
+.rojo ul li {
+justify-content: center;
+text-align: center;
+display: flex;
+flex-direction: column;
+list-style: none;
+background-color: white;
+height: 90px;
+width: 6vh;
+margin-top: 15px;
+}
