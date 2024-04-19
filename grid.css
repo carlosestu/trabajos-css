@@ -1,0 +1,96 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 6vh 6vh 6vh 6vh 6vh 6vh;
+    grid-template-areas: 
+        "resultado resultado resultado resultado"
+        "suma resta multiplicacion division"
+        "siete ocho nueve igual"
+        "cuatro cinco seis igual"
+        "uno dos tres igual"
+        "cero punto AC igual"
+        ;
+    width: 20%;
+}
+.resultado {
+    background-color: rgba(51, 48, 63, 0.838);
+    grid-column: 1; 
+    grid-row: 1;
+    align-items: center;
+    justify-content: end;
+    padding-right: 8px;
+    display: flex;
+    grid-area: resultado;
+}
+.operadores {
+    background-color: rgba(0, 0, 4, 0.206);
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#suma {
+    grid-area: suma;
+}
+#resta {
+    grid-area: resta;
+}
+#multiplicacion {
+    grid-area: multiplicacion;
+}
+#division {
+    grid-area: division;
+}
+.numeros {
+    background-color: white;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#uno {
+    grid-area: uno;
+}
+#dos {
+    grid-area: dos;
+}
+#tres {
+    grid-area: tres;
+}
+#cuatro {
+    grid-area: cuatro;
+}
+#cinco {
+    grid-area: cinco;
+}
+#seis {
+    grid-area: seis;
+}
+#siete {
+    grid-area: siete;
+}
+#ocho {
+    grid-area: ocho;
+}
+#nueve {
+    grid-area: nueve;
+}
+#cero {
+    grid-area: cero;
+}
+#punto {
+    grid-area: punto;
+}
+#AC {
+    grid-area: AC;
+}
+.igual{
+    background-color: rgb(194, 116, 116);
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-area: igual;
+}
+
+
