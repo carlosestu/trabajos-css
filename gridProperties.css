@@ -1,0 +1,95 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    grid-template-rows:150px 300px 150px;
+    grid-template-areas:
+    "verde verde verde"
+    "amarillo rojo azul"
+    "naranja naranja azul"
+    ;
+}
+#yellow {
+    padding-top: 25px;
+    padding-left: 35px;
+    background-color: rgba(250, 250, 151, 0.485);
+    grid-area: amarillo;
+}
+#yellow .fila1 li{
+
+    list-style: none;
+    background-color: white;
+    height: 45px;
+    width: 15vh;
+    margin-top: 15px;
+    margin-right: 50px;
+    line-height: 45px;
+    padding-left: 20px;
+}
+#yellow .fila1 {
+    flex-direction: row;
+    display: flex;
+}
+#yellow .fila2 li{
+
+    list-style: none;
+    background-color: white;
+    height: 45px;
+    width: 15vh;
+    margin-top: 15px;
+    margin-right: 50px;
+    line-height: 45px;
+    padding-left: 20px;
+}
+#yellow .fila2 {
+    flex-direction: row;
+    display: flex;
+}
+#red {
+    background-color: rgba(255, 87, 87, 0.641);
+    grid-area: rojo;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+#red .fila1rojo li{
+
+    list-style: none;
+    background-color: white;
+    height: 45px;
+    width: 15vh;
+    margin-top: 15px;
+    margin-right: 50px;
+    line-height: 45px;
+    padding-left: 20px;
+}
+#red .fila1rojo {
+    flex-direction: row;
+    display: flex;
+}
+#red .fila2rojo li{
+
+    list-style: none;
+    background-color: white;
+    height: 45px;
+    width: 15vh;
+    margin-top: 15px;
+    margin-right: 50px;
+    line-height: 45px;
+    padding-left: 20px;
+}
+#red .fila2rojo {
+    flex-direction: row;
+    display: flex;
+}
+#green {
+    background-color: rgba(138, 248, 138, 0.453);
+    grid-area: verde;
+}
+#blue {
+    background-color: rgba(72, 102, 148, 0.417);
+    grid-area: azul;
+}
+#orange {
+    background-color: rgba(178, 127, 33, 0.507);
+    grid-area: naranja;
+}
