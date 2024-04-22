@@ -1,0 +1,235 @@
+@media(min-width: 769px) {
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fotos {
+    margin-right: 2%; 
+    margin-top: 17vh;
+}
+.fotos:last-child {
+    margin-right: 0;
+}
+body div {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 55vh; 
+    background-color: rgb(192, 192, 192);
+    border-radius: 25px;
+}
+.ball {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.tituloFoto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 65px ;
+}
+.nombreYfecha {
+    width: 50%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+}
+.nombreYfecha h1 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.nombreYfecha p {
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: white;
+}
+.Imagenes {
+    width: 100%;
+   
+}
+.Imagenes img {
+    height: 250px;
+}
+.texto {
+    width: 95%;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 16.5px;
+}
+.TresPuntos {
+    margin-left: 50px;
+}
+.likeAndComment {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.likeAndComment img {
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+}
+@media (max-width: 375px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fotos { 
+        margin-top: 7vh;
+        margin-left: 12px;
+    }
+    body div {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 55vh; 
+        background-color: rgb(192, 192, 192);
+        border-radius: 25px;
+    }
+    .ball {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: white;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .tituloFoto {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 50px ;
+    }
+    .nombreYfecha {
+        width: 50%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nombreYfecha h1 {
+        font-size: 15px;
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+    .nombreYfecha p {
+        margin-left: 5px;
+        margin-bottom: 0;
+        margin-top: 3px;
+        color: white;
+        font-size: 13px;
+    }
+    .Imagenes {
+        width: 100%;
+       
+    }
+    .Imagenes img {
+        height: 170px;
+    }
+    .texto {
+        width: 95%;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        font-size: 10.8px;
+    }
+    .TresPuntos {
+        margin-left: 25px;
+    }
+    .likeAndComment {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .likeAndComment img {
+        height: 15px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+}
+@media (min-width: 375px) and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fotos {
+        width: 45%;
+        margin-right: 3%; 
+        margin-top: 5vh;
+        margin-left: 2%;
+    }
+    .fotos:last-child {
+        margin-right: 0;
+    }
+    body div {
+        display: flex;
+        flex-direction: column;
+        height: 40vh; 
+        background-color: rgb(192, 192, 192);
+        border-radius: 25px;
+    }
+    .ball {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .tituloFoto {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 60px ;
+    }
+    .nombreYfecha {
+        width: 50%;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nombreYfecha h1 {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+    .nombreYfecha p {
+        margin-left: 10px;
+        margin-bottom: 0;
+        margin-top: 0;
+        color: white;
+    }
+    .Imagenes {
+        width: 100%;
+       
+    }
+    .Imagenes img {
+        height: 200px;
+    }
+    .texto {
+        width: 95%;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    .TresPuntos {
+        margin-left: 40px;
+    }
+    .likeAndComment {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .likeAndComment img {
+        height: 15px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+}
