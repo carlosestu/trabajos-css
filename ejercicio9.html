@@ -1,10 +1,13 @@
 <!DOCTYPE html>
     <html>
-    <head>     
+    <head>  
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
         <title>ejercicio9</title>
         <link href="ejercicio9.css" rel="stylesheet">
     </head>
-    <body>
+    <body style="padding: 0; margin: 0;">
             <nav class="navbar">
                 <ul>
                     <div class="principal">
@@ -15,28 +18,48 @@
                     <li class="item-li"><a href="#Dropdown">Dropdown<span class="dropdown-icon" style="color:white; font-size: 10px;margin-left: 5px;">&#9660;</span></a></li>
                     </div>
                     <div class="disabled"><li><a href="#Disabled" class="disabledProp">Disabled</a></li></div>
-                    <div class="search">
-                        <li class="item-search" id="search1"><input type="text" placeholder="Search"></li>
-                        <li class="item-search" id="search2"><a href="#Searched" style="color: green;">Search</a></li>
-                    </div>
                 </ul> 
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <a href="#Searched" style="color: green;">Search</a>
+                </div>
             </nav>
             <div class="menuBurger">
-                <img src="menuHamburguesa.PNG" alt="icono">
-                <div class="primerPlato">
+                <img src="menuHamburguesa.jpg" alt="icono">
+                <div class="searchProduct">
+                    <input type="text" placeholder="¿what do u want to eat for first?">
+                    <a href="#first" >Send</a>
+                </div>
+                <div class="Platos">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>ensalada cesar <scan>8,50$</scan></li>
+                        <li>crujientes de pollo <scan>8,90$</scan></li>
+                        <li>Patatas Bravas <scan>7,80$</scan></li>
+                        <li>fingers de pollo <scan>7$</scan></li>
                     </ul>
                 </div>
-                <div class="hambuerguesas">
+                <div class="searchProduct">
+                    <input type="text" placeholder="¿which burger do u want?">
+                    <a href="#Second">Send</a>
+                </div>
+                <div class="Platos">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>ribs burger <scan>9,90$</scan></li>
+                        <li>gourmet burger <scan>10,50$</scan></li>
+                        <li>gallega burger <scan>9,50$</scan></li>
+                        <li>normal burger <scan>7,50$</scan></li>
+                    </ul>
+                </div>
+                <div class="searchProduct">
+                    <input type="text" placeholder="¿anything to drink?">
+                    <a href="#Second">Send</a>
+                </div>
+                <div class="Platos">
+                    <ul>
+                        <li>Cocacola <scan>2,50$</scan></li>
+                        <li>Fanta <scan>2,50$</scan></li>
+                        <li>Jarra cerveza <scan>3$</scan></li>
+                        <li>caña cerveza <scan>2$</scan></li>
                     </ul>
                 </div>
             </div>

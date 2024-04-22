@@ -5,7 +5,8 @@
 .navbar {
     display: flex;
     background-color:#3D4950;
-    width: 37%; 
+    width: 100%; 
+    justify-content: space-between;
 }
 .navbar ul {
     display: flex;  
@@ -13,7 +14,7 @@
 }
 .navbar ul li {
     justify-content: space-between;
-    margin-right: 100px;
+    margin-right: 6vw;
 }
 .navbar ul li a {
     text-decoration: none;
@@ -47,35 +48,65 @@
     cursor: not-allowed
 }
 .search {
-    margin-left: -27px;
     margin-top: 5px;
     display: flex;
     position: relative;
+    
 }
-.search .item-search {
-    margin-right: 10px;
+.search {
+    margin-right: 3%;
 }
-.search #search1 input {
+.search input {
     border-radius: 10px;
     height: 30px;
     width: 17vh;
 }
 
-.search #search2 {
+.search a {
     border: 1px solid green;
     border-radius: 10px; 
     width: 50px; 
     height: 30px;
     line-height: 25px;
+    text-decoration: none;
     text-align: center;
 }
 }
 @media(max-width: 768px) {
+    body {
+        background-color: black;
+    }
     .navbar {
         display: none;
     }
     .menuBurger {
         display: flex;
         flex-direction: column;
+    }
+    .searchProduct input {
+        border-radius: 10px;
+        width: 75%;
+        border-color: red;
+        background-color: black;
+    }
+    .searchProduct a {
+        text-decoration: none;
+        border: 1px solid red;
+        border-radius: 10px;
+        color: red;
+        background-color: black;
+    }
+    .Platos ul {
+        list-style: square;
+        color: white;
+    }
+    .Platos ul li:before {
+        content: '\25AA';
+    }
+    .Platos ul li {
+        margin-right: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
